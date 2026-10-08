@@ -1,11 +1,10 @@
-import Item from "../components/Item.jsx"
+import React from 'react'
+
+import { Outlet } from 'react-router-dom'
+
 const Home = () => {
   return (
-    <div className="home">
-      <Item/>
-      <Item/>
-      <Item/>
-    </div>
+      <Outlet/>
   )
 }
 

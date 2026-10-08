@@ -1,10 +1,9 @@
-
-const header = () => {
+const Header = () => {
   return (
-    <div className="header">
-        <h1>My Shopping App</h1>
-      </div>
+    <div className = "header">
+      <h1>My shopping app</h1>
+    </div>
   )
 }
 
-export default header
+export default Header

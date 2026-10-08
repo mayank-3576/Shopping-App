@@ -1,10 +1,10 @@
 
+
 const Footer = () => {
   return (
-    <div className="footer">
-      <h3>Design and Developed by Mayank Garg &copy; 2026 </h3>
+    <div className= "footer">
+      <h1>Design and Developed by Jai &copy; 2026</h1>
     </div>
   )
 }
-
 export default Footer
